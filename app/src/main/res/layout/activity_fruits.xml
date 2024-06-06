@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fruits">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/apple"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/apple"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/strawberry"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/strawberry"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/banana"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/banana"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/mango"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/mango"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/grapes"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/grapes"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/orange"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/orange"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/guava"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/guava"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/watermelon"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/watermelon"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/coconut"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/coconut"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/papaya"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/papaya"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/blueberry"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/blueberry"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/cherry"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/cherry"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/pear"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/pear"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/custard_apple"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/custard_apple"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/kiwi"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/kiwi"
+                    android:background="@drawable/image_background"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

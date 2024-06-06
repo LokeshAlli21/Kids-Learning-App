@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Vehicles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/car"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/car"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/van"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/van"
+                    android:background="@drawable/image_background"/>
+                blue
+                <ImageButton
+                    android:id="@+id/bus"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/bus"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/train"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/train"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/bicycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/bicycle"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/jeep"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/jeep"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/aeroplane"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/aeroplane"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/auto_rickshaw"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/auto_rickshaw"
+                    android:background="@drawable/image_background"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

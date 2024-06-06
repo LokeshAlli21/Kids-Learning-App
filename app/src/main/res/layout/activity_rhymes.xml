@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Rhymes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RHYMES"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:background="#FF5790"
+            android:padding="5dp"
+            android:textColor="#4CAF50"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Johny Johny Yes Papa Rhyme"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_margin="5dp"/>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:autoPlay="false"
+                    app:videoId="F4tHL8reNCs"
+                    android:layout_margin="5dp"
+                    android:id="@+id/v1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Twinkle Twinkle Little star Rhyme"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_margin="5dp"/>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:autoPlay="false"
+                    app:videoId="2LL6HmFARZY"
+                    android:layout_margin="5dp"
+                    android:id="@+id/v2"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Teddy Bear Teddy Bear turn around Rhyme"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_margin="5dp"/>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:autoPlay="false"
+                    app:videoId="7X0Q4F--g0s"
+                    android:layout_margin="5dp"
+                    android:id="@+id/v3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Humpty Dumpty Rhyme"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_margin="5dp"/>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:autoPlay="false"
+                    app:videoId="nrv495corBc"
+                    android:layout_margin="5dp"
+                    android:id="@+id/v4"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Baa Baa Black Sheep Rhyme"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_margin="5dp"/>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:autoPlay="false"
+                    app:videoId="MR5XSOdjKMA"
+                    android:layout_margin="5dp"
+                    android:id="@+id/v5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Chubby Cheeks Rhyme"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_margin="5dp"/>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:autoPlay="false"
+                    app:videoId="y-tLLPifkYA"
+                    android:layout_margin="5dp"
+                    android:id="@+id/v6"/>
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

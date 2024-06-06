@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Domestic_Animals">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cat"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/cat"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/dog"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/dog"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/camel"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/camel"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/cow"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/cow"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/donkey"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/donkey"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/goat"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/goat"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/rabbit"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/rabbit"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/sheep"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/sheep"
+                    android:background="@drawable/image_background"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

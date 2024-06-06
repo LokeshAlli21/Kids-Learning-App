@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Birds">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/parrot"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/parrot"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/peacock"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/peacock"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/owl"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/owl"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/sparrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/sparrow"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/duck"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/duck"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/pigeon"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/pigeon"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/crow"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/crow"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/hen"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/hen"
+                    android:background="@drawable/image_background"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

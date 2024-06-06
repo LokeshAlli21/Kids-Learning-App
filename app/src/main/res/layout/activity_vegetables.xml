@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Vegetables">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cabbage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/cabbage"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/ladyfinger"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/ladyfinger"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/cauliflower"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/cauliflower"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/capsicum"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/capsicum"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/onion"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/onion"
+                    android:background="@drawable/image_background"/>
+
+
+                <ImageButton
+                    android:id="@+id/brinjal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/brinjal"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/spinach"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/spinach"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/raddish"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/raddish"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/pumpkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/pumpkin"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/chilli"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/chilli"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/bitter_gourd"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/bitter_gourd"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/green_beans"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/green_beans"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/bottle_guard"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/bottle_guard"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/potato"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/potato"
+                    android:background="@drawable/image_background"/>
+
+                <ImageButton
+                    android:id="@+id/cucumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:src="@raw/cucumber"
+                    android:background="@drawable/image_background"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

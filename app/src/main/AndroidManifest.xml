@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidslearningapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KidsLearningApp">
+        <activity
+            android:name=".Anim5"
+            android:exported="false" />
+        <activity
+            android:name=".Anim4"
+            android:exported="false" />
+        <activity
+            android:name=".Anim3"
+            android:exported="false" />
+        <activity
+            android:name=".Anim2"
+            android:exported="false" />
+        <activity
+            android:name=".Anim1"
+            android:exported="false" />
+        <activity
+            android:name=".Gif"
+            android:exported="false" />
+        <activity
+            android:name=".Fun"
+            android:exported="false" />
+        <activity
+            android:name=".Test"
+            android:exported="false" />
+        <activity
+            android:name=".Colours"
+            android:exported="false" />
+        <activity
+            android:name=".Rhymes"
+            android:exported="false" />
+        <activity
+            android:name=".Wild_Animals"
+            android:exported="false" />
+        <activity
+            android:name=".Vehicles"
+            android:exported="false" />
+        <activity
+            android:name=".Vegetables"
+            android:exported="false" />
+        <activity
+            android:name=".Numbers"
+            android:exported="false" />
+        <activity
+            android:name=".Fruits"
+            android:exported="false" />
+        <activity
+            android:name=".Domestic_Animals"
+            android:exported="false" />
+        <activity
+            android:name=".Birds"
+            android:exported="false" />
+        <activity
+            android:name=".Alphabets"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
